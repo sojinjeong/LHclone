@@ -18,9 +18,7 @@ $(function(){
         $('.main-nav a, .logo, .btn-h-line, .ri-global-line, .ri-search-line').stop().removeClass("black-font");
         $('.searchform,.btn-h-line').stop().removeClass("black-border");
       };
-      if($(window).scrollTop() > 600) {
-        $('.new-title').addClass('animate_fadeInUp')
-      })
+
   });
   //main-nav
   $('.main-nav').hover(function(){
